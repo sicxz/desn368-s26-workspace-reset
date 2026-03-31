@@ -58,8 +58,8 @@ As you complete each tool setup, **come back and update the "My Toolkit" section
 - **GitHub Profile:** https://github.com/dmncdesign ⏳
 - **Workspace Repository:** [Add your repository URL here] ⏳
 - **Figma:** https://www.figma.com/@dmncdesign ⏳
-- **CodePen:** [Add your CodePen profile URL here] ⏳
-- **LiveCode:** [Add your LiveCode profile here] ⏳
+- **CodePen:** https://codepen.io/dmncdesign ⏳
+- **LiveCode:**  ⏳
 - **GitHub Student Pack:** [Confirm approval status here] ⏳
 
 ### **How to Update Your Toolkit:**

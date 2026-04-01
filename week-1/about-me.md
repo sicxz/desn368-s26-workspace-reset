@@ -13,7 +13,7 @@
 [ ] DESN 263  
 [x] DESN 338  
 [ ] None  
-[x] Other: 301, 326, 355
+[x] Other: 301, 326, 336, 355
 
 **3. Web experience:**  
 [x] Never coded  

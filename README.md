@@ -56,7 +56,7 @@ As you complete each tool setup, **come back and update the "My Toolkit" section
 ## 🛠️ **My Toolkit**
 *Update these links as you complete each tool setup:*
 - **GitHub Profile:** https://github.com/dmncdesign ⏳
-- **Workspace Repository:** [Add your repository URL here] ⏳
+- **Workspace Repository:** https://github.com/dmncdesign/desn368-s26-workspace/tree/main ⏳
 - **Figma:** https://www.figma.com/@dmncdesign ⏳
 - **CodePen:** https://codepen.io/dmncdesign ⏳
 - **LiveCode:**  ⏳

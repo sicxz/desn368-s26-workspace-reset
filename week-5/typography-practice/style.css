@@ -1,0 +1,60 @@
+body {
+ font-family: "Glegoo";
+}
+
+.book-header {
+  font-family: "Geo";
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.genre-label {
+  
+}
+
+.book-title {
+  font-size: 24px;
+  margin-bottom: 0px;
+}
+
+.book-author {
+  margin-top: 0px;
+}
+
+.chapter-number {
+  margin-bottom: 0px;
+}
+
+.chapter-title {
+  font-size: 32px;
+  margin-top: 0px;
+}
+
+.book-meta {
+  margin-bottom: 0px;
+}
+
+.book-date {
+  margin-top: 0px;
+}
+
+.book-excerpt {
+  line-height: 25px;
+}
+
+.book-excerpt p {
+  
+}
+
+.typography-analysis {
+
+}
+
+.typography-analysis h2 {
+  font-family: "Geo";
+  font-size: 32px;
+}
+
+.typography-analysis p {
+
+}

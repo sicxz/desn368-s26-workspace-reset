@@ -1,0 +1,171 @@
+/* Dark Mode Theme with Reds and Greys */
+
+:root {
+    --dark-bg: #1a1a1a;
+    --darker-bg: #121212;
+    --card-bg: #242424;
+    --primary-red: #e63946;
+    --accent-red: #d62828;
+    --light-grey: #e5e5e5;
+    --mid-grey: #a8a8a8;
+    --border-grey: #3a3a3a;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--darker-bg);
+    color: var(--light-grey);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    padding: 3rem 0;
+    border-bottom: 2px solid var(--primary-red);
+    margin-bottom: 3rem;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: var(--primary-red);
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.subtitle {
+    color: var(--mid-grey);
+    font-size: 1.1rem;
+    font-style: italic;
+}
+
+/* Main Content */
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+/* Week Sections */
+.week-section {
+    background-color: var(--card-bg);
+    padding: 2rem;
+    border-radius: 8px;
+    border-left: 4px solid var(--primary-red);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.week-section:hover {
+    transform: translateX(5px);
+    box-shadow: 0 6px 12px rgba(230, 57, 70, 0.2);
+}
+
+.week-section h2 {
+    color: var(--primary-red);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.week-section h3 {
+    color: var(--accent-red);
+    font-size: 1.3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+}
+
+/* Project Lists */
+.project-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.project-list.sublist {
+    margin-left: 1.5rem;
+}
+
+.project-list li {
+    padding: 0.5rem;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+}
+
+.project-list li:hover {
+    background-color: var(--dark-bg);
+}
+
+.project-list a {
+    color: var(--light-grey);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    transition: color 0.2s ease, padding-left 0.2s ease;
+}
+
+.project-list a::before {
+    content: "▸";
+    color: var(--primary-red);
+    margin-right: 0.75rem;
+    font-size: 1.2rem;
+    transition: transform 0.2s ease;
+}
+
+.project-list a:hover {
+    color: var(--primary-red);
+    padding-left: 0.5rem;
+}
+
+.project-list a:hover::before {
+    transform: translateX(5px);
+}
+
+/* Footer */
+footer {
+    margin-top: 4rem;
+    padding: 2rem 0;
+    text-align: center;
+    border-top: 1px solid var(--border-grey);
+    color: var(--mid-grey);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 1rem;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    .week-section {
+        padding: 1.5rem;
+    }
+
+    .week-section h2 {
+        font-size: 1.5rem;
+    }
+
+    .project-list.sublist {
+        margin-left: 0.75rem;
+    }
+}
